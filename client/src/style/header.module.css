@@ -1,0 +1,317 @@
+.logo {
+    margin-top: 15px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+  
+.logoImg {
+    height: 48px;
+    margin: 5px 0 0 0px;
+}
+.categories {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    border-right: 1px solid #6c7681;
+}
+
+.categoriesA {
+    text-decoration: none;
+    color: white;
+}
+
+.categoriesA:hover{
+    color: white;
+}
+
+.categoriesSpan {
+    margin-left: 15px;
+}
+.search {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+  }
+  
+  .searchSelect {
+    -webkit-appearance: none;
+    height: 40px;
+    border: none;
+    padding: 5px 0px 5px 20px;
+    font-size: 13px;
+    border-right: 1px solid #ededed;
+    border-radius: 5px 0px 0px 5px;
+    color: gray;
+  }
+  
+  .searchSelect:hover {
+    cursor: pointer;
+  }
+  
+  .searchSelect:focus {
+    outline: none;
+  }
+  
+  .searchInput {
+    height: 40px;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    font-size: 13px;
+    width: 100%;
+  }
+  
+  .searchInput:focus {
+    outline: none;
+  }
+  
+  .searchButton {
+    height: 40px;
+    border: none;
+    font-size: 12px;
+    background-color: white;
+    padding: 0 20px 0 20px;
+    border-radius: 0 5px 5px 0;
+    position: relative;
+    right: 1px;
+    color: #f29202;
+  }
+
+  .ul {
+    list-style: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0;
+    padding-right: 5px;
+    padding-left: 25px;
+    vertical-align: text-top;
+    margin: 0;
+}
+
+.li {
+    float: left
+}
+
+.li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-right: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-decoration: none;
+}
+
+.li a:hover {
+    color: white;
+}
+.login {
+    text-decoration: none;
+    position: relative;
+    bottom: 8px;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.login:hover{
+    border-color: white;
+    transition: 0.1s;
+}
+
+
+.login:hover {
+    cursor: pointer;
+}
+  
+.loginDiv{
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+  
+.loginImg{
+    height: 35px;
+    display: inline-block;
+    position: relative;
+    bottom: 5px;
+    right: 10px;
+}
+  
+.loginSpan{
+    font-weight: 300;
+    font-size: 13px;
+    text-align: left;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+  
+.loginSpan2{
+    text-decoration: none;
+    font-weight: 500;
+    display: block;
+    font-size: 14px;
+    position: relative;
+    bottom: 3px;
+    color: white;
+}
+.popover{
+    width: 180px;
+    height: 90px;
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(248, 248, 248);
+    border-radius: 4px;
+}
+.button{
+    box-shadow: 2px 2px 5px #d4d4d4;
+    display: block;
+    width: 65%;
+    margin: auto;
+    text-decoration: none;
+    border-radius: 4px;
+    background-color: #eb9f2d;
+    color: rgb(247, 245, 245);
+    border: 2px solid rgb(172, 172, 172);
+    border-top: 0px;
+    border-left: 0px;
+    padding: 5px 20px 5px 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.button:hover{
+    box-shadow: none;
+    border: 1.5px solid rgb(172, 172, 172);
+    color: rgb(231, 231, 231);
+    border-top: 0px;
+    border-left: 0px;
+    background-color: #ec9819;
+    transition: 0.1s;
+    
+}
+
+.text{
+    display: block;
+    font-size: 11px;
+    position: absolute;
+    bottom: 13px;
+    left: 26px;
+}
+.text:hover{
+    cursor: pointer;
+}
+.popoverLink{
+    text-decoration: none;
+}
+
+.popoverLink:hover{
+    text-decoration: underline;
+    color: #eb922d;
+}
+
+.currencyA {
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 6px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.currencyA:hover {
+    cursor: pointer;
+    border-color: white;
+    transition: 0.1s;
+}
+  
+.currency{
+    border-left: 1px solid #6c7681;
+    text-align: left;
+}
+  
+.currencySpan{
+    color: white;
+    font-weight: 400;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+  
+.svg{
+    color: white;
+    font-size: 14px;
+    padding: 1px;
+}
+
+.popover2{
+    width: 180px;
+    /* height: 95px; */
+    text-align: left;
+    background-color: rgb(248, 248, 248);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.popover2 ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.popover2 ul span{
+    font-size: 16px;
+}
+
+.popover2 ul li:nth-child(1){
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(197, 197, 197);
+}
+
+.popover2 ul li a:last-child{
+    color:rgb(80, 80, 80);
+}
+
+.popover2 ul li a:last-child:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color:rgb(253, 171, 48);
+}
+
+.popover2 ul li a {
+    text-decoration: none;
+    color:rgb(80, 80, 80);
+    font-size: 13px;
+    transition-duration: 0.4s;
+}
+
+.popover2 ul li a:hover {
+    text-decoration: underline;
+    color:rgb(253, 171, 48);
+    font-size: 13px;
+}
+
+
+.popover2 ul li {
+    font-weight: 500px;
+    padding-left:30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+/* .popover2 ul li:nth-child(n+2):nth-child(-n+3){
+    border-bottom: 1px solid rgb(197, 197, 197);
+} */
+
+.flag{
+    padding: 5px;
+    display: inline-block;
+    margin: 10px;
+}
+.flag img{
+    width: 25px;
+}

@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    height: 10vh;
+}
+
+.map {
+    width: 500px;
+    height: 300px;
+    margin: auto;
+}
+
+.mapContainer {
+    width: 100%;
+    height: 100%;
+}

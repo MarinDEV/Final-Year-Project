@@ -1,0 +1,91 @@
+.mainDiv {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,500px);
+    place-content: center;
+    gap: 2rem;
+    padding-top: 50px;   
+    padding-bottom: 50px;
+}
+
+.card {
+    text-align: justify;
+}
+
+.mainImage{
+    width: 100%;
+    padding: 30px;
+    border: 1px solid rgb(223, 223, 223);
+    background: white;
+}
+
+.allMedia{
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.allMedia li{
+    width: 70px;
+    margin: 0px 10px 0px 10px;
+    border: 1px solid rgb(223, 223, 223);;
+    display: inline-block;
+}
+
+.allMedia li:hover{
+    cursor: pointer;
+}
+
+.allMedia li img{
+    width: 100%;
+}
+
+.checkoutRow {
+    display: block;
+    text-align: center;
+}
+
+.checkoutRow span{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.button {
+    display: inline-block;
+    margin-left: 10px;
+    height: 40px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    outline: none;
+}
+
+.button:active:hover {
+    box-shadow: none;
+}
+
+.button:focus {
+    box-shadow: none;
+}
+
+.select{
+    width: 70px;
+    display: inline-block;
+    height: 40px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding-top: 2px;
+}
+
+.popover{
+    margin-left: 50px;
+    padding: 5px
+}
+
+.popover span{
+    margin-left: 20px;
+}
+.popover a{
+    margin-right: 20px;
+    margin-left:5px;
+}

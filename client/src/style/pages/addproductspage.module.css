@@ -1,0 +1,81 @@
+.mainDiv {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1;
+    place-content: center;
+}
+
+.mainContainer {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px -1px rgb(189, 189, 189);
+    margin-bottom: 30px;
+    padding: 20px;
+    text-align: left;
+}
+
+.mainContainer:first-child {
+    margin-top: 50px;
+}
+
+.mainContainer h3 {
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.name {
+    width: 500px;
+}
+
+.desc {
+    height: 200px;
+}
+
+.desc::placeholder {
+    float:left
+}
+
+.priceGroup {
+    display: block;
+}
+
+.priceInput {
+    width: 30%;
+    display: inline-block;
+    margin-right: 10px;
+}
+.quantityInput {
+    width: 30%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.dimensionsInput {
+    width: 30%;
+    display: inline-block;
+}
+
+.catSelector {
+    width: 86%;
+    display: inline-block;
+}
+
+.addCat {
+    display: inline-block;
+    height: 38px;
+    margin-bottom: 3px;
+    margin-left: 10px;
+}
+
+.alert {
+    margin-bottom: 5px;
+    height: 50px;
+    line-height:50px;
+    padding:0px 20px;
+    margin-top: 10px;
+}
+
+.alert button{
+    height: 10px;
+}

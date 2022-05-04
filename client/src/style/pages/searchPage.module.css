@@ -1,0 +1,64 @@
+
+.mainDiv {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,300px);
+    place-content: center;
+    gap: 2rem;
+    padding-top: 50px;   
+    padding-bottom: 50px;
+}
+
+.card {
+    border-radius: 4px;
+    background-color: #ffff;
+    box-shadow: 0 0 10px -1px rgb(189, 189, 189);
+    text-align: center;
+    display: grid;
+}
+
+.card img {
+    width: 80%;
+    padding: 20px;
+}
+
+.card article {
+    padding: 1rem;
+    position: relative;
+    align-self: end;
+}
+
+.imageRow {
+    align-self: end;
+}
+
+
+.imageRow img{
+    margin: auto;
+}
+
+.titleRow {
+    display: table-cell;
+    width: 300px;
+    vertical-align: middle;
+    height: 50px;
+    text-align: center;
+}
+
+.titleRow h5 {
+    margin-bottom: 0px;
+}
+
+.priceRow {
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+}
+.buttonRow {
+    height: 50px;
+    text-align: center;
+}
+
+.button {
+    width: 90%;
+}

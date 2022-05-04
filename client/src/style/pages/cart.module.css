@@ -1,0 +1,99 @@
+
+.topDiv {
+    width: 98%;
+    display: inline-block;
+    /* place-content: center; */
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 20px;
+    background: white;
+}
+
+.topDiv span{
+    margin-left: 20px;
+    padding: 7px;
+    float: left;
+}
+
+.a{
+    float: right;
+    margin-right: 0px;
+    text-decoration: none;
+    height: 100%;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.mainDiv {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,300px);
+    place-content: center;
+    gap: 2rem;
+    padding-top: 50px;   
+    padding-bottom: 50px;
+}
+
+.card {
+    border-radius: 4px;
+    background-color: #ffff;
+    box-shadow: 0 0 10px -1px rgb(189, 189, 189);
+    text-align: center;
+}
+
+.card img {
+    width: 80%;
+    padding: 20px;
+}
+
+.card article {
+    padding: 1rem;
+}
+
+.imageRow {
+    height: 250px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.imageRow img{
+    margin: auto;
+}
+
+.titleRow {
+    display: table-cell;
+    width: 300px;
+    vertical-align: middle;
+    height: 50px;
+    text-align: center;
+}
+
+.titleRow h5 {
+    margin-bottom: 0px;
+}
+
+.quantityRow {
+    margin-top: 15px;
+    display: block;
+    vertical-align: middle;
+    height: 20px;
+}
+
+.priceRow {
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+}
+.buttonRow {
+    height: 50px;
+    text-align: center;
+}
+
+.button {
+    width: 90%;
+}
